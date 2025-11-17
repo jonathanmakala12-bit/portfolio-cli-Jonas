@@ -1,0 +1,97 @@
+#include<iostream>
+using namespace std;
+void about();
+void skills();
+void projects();
+void future();
+int main()
+{
+    cout<<"=========================="<<endl;
+    cout<<"   MY PORTFOLIO APP       "<<endl;
+    cout<<"=========================="<<endl;
+    cout<<endl;
+    int option;
+
+
+    while(true)
+    {
+        cout<<"1. About Me "<<endl;
+        cout<<"2. Skills I Want to Learn "<<endl;
+        cout<<"3. My Projects "<<endl;
+        cout<<"4. My Future Plans "<<endl;
+        cout<<"5. Exit "<<endl;
+        cout<<endl;
+
+        cout<<"Choose from the menu above : ";
+
+        if (!(cin>>option))
+            {
+                cout<<"Invalid option. Please choose a number from the menu."<<endl;
+                cin.clear();
+                cin.ignore();
+                cout<<endl;
+                continue;
+            }
+
+        cout<<endl;
+
+        switch(option)
+        {
+        case 1:
+            about();
+            cout<<endl;
+            break;
+        case 2:
+            skills();
+            cout<<endl;
+            break;
+        case 3:
+            projects();
+            cout<<endl;
+            break;
+        case 4:
+            future();
+            cout<<endl;
+            break;
+        case 5:
+            cout<<"Exiting...";
+            return 0;
+            break;
+        default :
+            cout<<"Invalid Choice \n "<<endl;
+
+        }
+    }
+
+    return 0;
+}
+void about()
+{
+    cout<<"Full name : Jonathan Makala "<<endl;
+    cout<<"School and Year of Study : SICT,Second Year "<<endl;
+    cout<<"Program : Bachelor of science in Computer Engineering "<<endl;
+    cout<<"Intro : A student who wants to know more about how the machines operate and improve their Tech.Ready to know more "<<endl;
+
+}
+void skills()
+{
+    cout<<"Wanted Skills "<<endl;
+    cout<<"1. Networking "<<endl;
+    cout<<"2. Database Management "<<endl;
+    cout<<"3. App Development "<<endl;
+    cout<<"4. Machine Learning "<<endl;
+}
+void projects()
+{
+   cout<<"Projects from Class"<<endl;
+   cout<<"1. CA and Exam Score Calculator"<<endl;
+   cout<<"2. ZRA Calculator"<<endl;
+   cout<<endl;
+   cout<<"Personal Projects"<<endl;
+   cout<<"1. Factorial Calculator C++"<<endl;
+   cout<<"2. Area of a Quadratic Function and the roots C++"<<endl;
+}
+void future()
+{
+    cout<<"To become a cybersecurity personnel and AI Engineer"<<endl;
+}
