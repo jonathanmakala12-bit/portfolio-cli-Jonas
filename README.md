@@ -16,3 +16,4 @@
   - When someone choose an invalid input
 ![image alt](https://github.com/jonathanmakala12-bit/portfolio-cli-Jonas/blob/ae4c007bfcb81527464df3a5a612140f1bc4fe4c/Screenshot_20251117-101548.png)
   - When someone choose option 5
+![image alt](https://github.com/jonathanmakala12-bit/portfolio-cli-Jonas/blob/d17b02f1585b01c4f355db78963c41d5df6a3962/Screenshot_20251117-101610.png)
